@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/web/shoppingB2B", {data:[{}],fetch:{},mutations:[]});
