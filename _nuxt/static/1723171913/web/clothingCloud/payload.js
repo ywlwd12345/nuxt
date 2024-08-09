@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/web/clothingCloud", {data:[{}],fetch:{},mutations:[]});

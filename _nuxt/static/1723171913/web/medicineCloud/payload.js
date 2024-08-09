@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/web/medicineCloud", {data:[{}],fetch:{},mutations:[]});
