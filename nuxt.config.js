@@ -18,11 +18,8 @@ export default {
   },
 
 
-  router: {
-    base: '/nuxt/'
-  },
 
-  target: 'static',
+ 
 
 
 

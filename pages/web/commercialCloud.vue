@@ -1,6 +1,5 @@
 <template>
   <div class="p-content">
-   
     <div class="s-cloud">
       <div
         style="
@@ -17,7 +16,6 @@
           height="100%"
           :src="videoUrl"
         ></video>
-        
       </div>
 
       <h3 class="title">商贸云进销存</h3>
@@ -199,13 +197,11 @@
       <button class="btn-size btn-null" @click="open()" data-agl-cvt="1">
         了解更多
       </button>
-     
     </div>
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
@@ -277,12 +273,15 @@ export default {
 
   created() {
     var _hmt = _hmt || [];
-    (function () {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?35fe80cda25c34a9faf34a58400655de";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
+
+    if (process.client) {
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?35fe80cda25c34a9faf34a58400655de";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    }
   },
 };
 </script>

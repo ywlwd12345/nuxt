@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/web/price", {data:[{}],fetch:{},mutations:[]});
